@@ -70,7 +70,7 @@ module.exports = {
   // modulePathIgnorePatterns: [],
 
   // Activates notifications for test results
-  notify: true,
+  // notify: true,
 
   // An enum that specifies notification mode. Requires { notify: true }
   notifyMode: "always",
@@ -111,7 +111,7 @@ module.exports = {
   // setupFiles: [],
 
   // The path to a module that runs some code to configure or set up the testing framework before each test
-  setupTestFrameworkScriptFile: "jest-extended",
+  setupFilesAfterEnv: ["jest-extended"],
 
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
   // snapshotSerializers: [],

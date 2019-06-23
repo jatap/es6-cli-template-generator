@@ -10,9 +10,7 @@ units=(".babelrc.js" \
   ".gitignore" \
   ".npmrc" \
   ".prettierrc" \
-  ".tern-project" \
   ".vscode" \
-  ".flowconfig" \
   ".huskyrc" \
   "package-tpl.json" \
   "src" \

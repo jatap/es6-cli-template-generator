@@ -1,20 +1,18 @@
 module.exports = {
   presets: [
     [
-      "@babel/preset-env",
+      '@babel/preset-env',
       {
         targets: {
-          node: "current"
+          node: 'current'
         }
       }
     ],
-    "@babel/flow"
   ],
   plugins: [
-    "@babel/transform-flow-strip-types",
-    "@babel/plugin-proposal-class-properties"
+    '@babel/plugin-proposal-class-properties'
   ],
   retainLines: true,
-  sourceMaps: "inline",
-  ignore: ["node_modules", ".compiled"]
+  sourceMaps: 'inline',
+  ignore: ['node_modules', '.compiled']
 };

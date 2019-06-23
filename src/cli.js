@@ -1,17 +1,18 @@
 #!/usr/bin/env node
 
-const program: Object = require("commander");
+const program = require('commander');
 
 program
-  .version("0.1.0", "-v, --version")
-  .name("XXX")
-  .description("XXX");
+  .version('0.1.0', '-v, --version')
+  .name('XXX')
+  .description('XXX');
 
-program.on("--help", () => {
-  console.log("");
-  console.log("Examples:");
-  console.log("  $ XXX --help");
-  console.log("  $ XXX -h");
+/* eslint-disable no-console */
+program.on('--help', () => {
+  console.log('');
+  console.log('Examples:');
+  console.log('  $ XXX --help');
+  console.log('  $ XXX -h');
 });
 
 program.parse(process.argv);

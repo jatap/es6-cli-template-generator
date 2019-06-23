@@ -1,40 +1,36 @@
 {
-  "extends": [
-    "standard",
-    "plugin:flowtype/recommended",
-    "plugin:prettier/recommended",
-    "prettier",
-    "prettier/standard",
-    "plugin:jest/recommended"
-  ],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "sourceType": "module",
-    "allowImportExportEverywhere": false,
-    "codeFrame": true
-  },
-  "plugins": [
-    "standard",
-    "jest",
-    "flowtype"
-  ],
-  "settings": {
-    "flowtype": {
-      "onlyFilesWithFlowAnnotation": false
-    }
-  },
   "env": {
     "es6": true,
     "node": true,
     "mocha": true,
     "jasmine": true,
-    "jest/globals": true
+    "jest/globals": true,
+    "browser": true
   },
+  "extends": [
+    "eslint-config-airbnb-base",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:promise/recommended",
+    "plugin:node/recommended",
+    "plugin:jest/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "promise",
+    "jest"
+  ],
   "rules": {
     "strict": 0,
-    "semi": [2, "always"],
-    "quotes": [2,"double"],
+    "import/no-unresolved": 0,
+    "import/no-dynamic-require": 0,
+    "global-require": 0,
+    "no-plusplus": 0,
     "no-unused-expressions": 0,
-    "flowtype/no-types-missing-file-annotation": 0
+    "node/no-unsupported-features/es-syntax": 0
   }
 }

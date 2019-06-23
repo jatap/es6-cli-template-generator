@@ -21,10 +21,10 @@ module.exports = {
   collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  collectCoverageFrom: ["src/**/*.js", "!src/cli.js"],
+  collectCoverageFrom: ['src/**/*.js', '!src/cli.js'],
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "reports/coverage",
+  coverageDirectory: 'reports/coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -32,7 +32,7 @@ module.exports = {
   // ],
 
   // A list of reporter names that Jest uses when writing coverage reports
-  coverageReporters: ["json", "text", "text-summary", "lcov", "clover", "html"],
+  coverageReporters: ['json', 'text', 'text-summary', 'lcov', 'clover', 'html'],
 
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: null,
@@ -53,14 +53,14 @@ module.exports = {
   // globals: {},
 
   // An array of directory names to be searched recursively up from the requiring module's location
-  moduleDirectories: ["node_modules", "src"],
+  moduleDirectories: ['node_modules', 'src'],
 
   // An array of file extensions your modules use
   moduleFileExtensions: [
-    "js",
+    'js',
     // "json",
     // "jsx",
-    "node"
+    'node'
   ],
 
   // A map from regular expressions to module names that allow to stub out resources with a single module
@@ -73,7 +73,7 @@ module.exports = {
   // notify: true,
 
   // An enum that specifies notification mode. Requires { notify: true }
-  notifyMode: "always",
+  notifyMode: 'always',
 
   // A preset that is used as a base for Jest's configuration
   // preset: null,
@@ -111,13 +111,13 @@ module.exports = {
   // setupFiles: [],
 
   // The path to a module that runs some code to configure or set up the testing framework before each test
-  setupFilesAfterEnv: ["jest-extended"],
+  setupFilesAfterEnv: ['jest-extended'],
 
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  testEnvironment: 'node',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -128,11 +128,11 @@ module.exports = {
   // The glob patterns Jest uses to detect test files
   testMatch: [
     // "**/__tests__/**/*.js?(x)",
-    "**/?(*.)+(spec|test).js?(x)"
+    '**/?(*.)+(spec|test).js?(x)'
   ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-  testPathIgnorePatterns: [".compiled"],
+  testPathIgnorePatterns: ['.compiled'],
 
   // The regexp pattern Jest uses to detect test files
   // testRegex: "",

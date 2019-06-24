@@ -14,20 +14,21 @@
     "plugin:promise/recommended",
     "plugin:node/recommended",
     "plugin:jest/recommended",
-    "prettier"
+    "prettier",
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
   "plugins": [
+    "prettier",
     "promise",
     "jest"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "strict": 0,
-    "semi": [2, "always"],
-    "quotes": [2, "single"],
     "import/no-unresolved": 0,
     "import/no-dynamic-require": 0,
     "global-require": 0,

@@ -60,7 +60,7 @@ module.exports = {
     'js',
     // "json",
     // "jsx",
-    'node'
+    'node',
   ],
 
   // A map from regular expressions to module names that allow to stub out resources with a single module
@@ -128,7 +128,7 @@ module.exports = {
   // The glob patterns Jest uses to detect test files
   testMatch: [
     // "**/__tests__/**/*.js?(x)",
-    '**/?(*.)+(spec|test).js?(x)'
+    '**/?(*.)+(spec|test).js?(x)',
   ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
@@ -161,7 +161,7 @@ module.exports = {
   // unmockedModulePathPatterns: undefined,
 
   // Indicates whether each individual test should be reported during the run
-  verbose: false
+  verbose: false,
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],

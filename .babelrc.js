@@ -4,15 +4,13 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: {
-          node: 'current'
-        }
-      }
+          node: 'current',
+        },
+      },
     ],
   ],
-  plugins: [
-    '@babel/plugin-proposal-class-properties'
-  ],
+  plugins: ['@babel/plugin-proposal-class-properties'],
   retainLines: true,
   sourceMaps: 'inline',
-  ignore: ['node_modules', '.compiled']
+  ignore: ['node_modules', '.compiled'],
 };

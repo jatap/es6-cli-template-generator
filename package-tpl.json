@@ -4,13 +4,7 @@
   "description": "XXX",
   "author": "Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>",
   "license": "ISC",
-  "keywords": [
-    "javascript",
-    "js",
-    "node",
-    "es6",
-    "cli"
-  ],
+  "keywords": ["javascript", "js", "node", "es6", "cli"],
   "main": "src/cli.js",
   "bin": {
     "XXX": "src/cli.js"
@@ -62,9 +56,10 @@
     "husky": "^2.4.1",
     "jest": "^24.8.0",
     "jest-extended": "^0.11.1",
+    "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
     "standard-version": "^6.0.1"
-},
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"

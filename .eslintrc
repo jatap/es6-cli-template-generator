@@ -26,6 +26,8 @@
   ],
   "rules": {
     "strict": 0,
+    "semi": [2, "always"],
+    "quotes": [2, "single"],
     "import/no-unresolved": 0,
     "import/no-dynamic-require": 0,
     "global-require": 0,

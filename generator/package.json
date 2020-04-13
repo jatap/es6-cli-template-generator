@@ -30,6 +30,7 @@
     "test:dev": "jest --watch --coverage --updateSnapshot || true"
   },
   "dependencies": {
+    "config": "^3.3.1",
     "commander": "^5.0.0"
   },
   "devDependencies": {

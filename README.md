@@ -25,6 +25,7 @@ Template to generate new ES6 cli projects
 - Debug
 - Commitizen
 - Standard Version
+- Config
 
 ## Usage
 

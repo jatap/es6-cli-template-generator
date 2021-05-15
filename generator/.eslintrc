@@ -1,4 +1,5 @@
 {
+  "root": true,
   "env": {
     "es6": true,
     "node": true,
@@ -14,20 +15,14 @@
     "plugin:promise/recommended",
     "plugin:node/recommended",
     "plugin:jest/recommended",
-    "prettier",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": [
-    "prettier",
-    "promise",
-    "jest"
-  ],
+  "plugins": ["promise", "jest"],
   "rules": {
-    "prettier/prettier": "error",
     "strict": 0,
     "import/no-unresolved": 0,
     "import/no-dynamic-require": 0,
